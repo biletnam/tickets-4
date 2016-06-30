@@ -10,15 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-use Illuminate\Support\Facades\Auth;
-
-//Auth::LoginUsingId(1);
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 Route::resource('ticket', 'TicketController');
 Route::get('/ticket/change/{id}/{status}', ['as' => 'ticket.change', 'uses' => 'TicketController@changeStatus']);
