@@ -13,6 +13,6 @@
 
 Route::auth();
 
-Route::get('/', 'HomeController@index');
+Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::resource('ticket', 'TicketController');
 Route::get('/ticket/change/{id}/{status}', ['as' => 'ticket.change', 'uses' => 'TicketController@changeStatus']);

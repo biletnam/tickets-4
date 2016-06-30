@@ -4,7 +4,7 @@
     <list default="true" id="d82d51cd-f159-4fdc-b87b-57a8b72993c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php" afterPath="$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php" />
     </list>
     <ignored path="tickets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.06792453">
-              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state vertical-scroll-proportion="-6.0">
+              <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -59,8 +59,8 @@
       <file leaf-file-name="TicketController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TicketController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.444445">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding>
                 <element signature="e#40#55#0#PHP" expanded="true" />
               </folding>
@@ -68,15 +68,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_create_edit_form.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_create_edit_form.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.033962265">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
-                <marker date="1467282837000" expanded="true" signature="470:597" placeholder="..." />
-                <marker date="1467282837000" expanded="true" signature="482:595" placeholder="..." />
-                <marker date="1467282837000" expanded="true" signature="504:594" placeholder="..." />
+                <marker date="1467325512000" expanded="true" signature="470:597" placeholder="..." />
+                <marker date="1467325512000" expanded="true" signature="482:595" placeholder="..." />
+                <marker date="1467325512000" expanded="true" signature="504:594" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -125,8 +125,8 @@
       <file leaf-file-name="CreateTicket.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateTicket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state vertical-scroll-proportion="8.0">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding>
                 <element signature="e#37#67#0#PHP" expanded="true" />
               </folding>
@@ -174,9 +174,9 @@
         <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php" />
       </list>
     </option>
   </component>
@@ -448,7 +448,7 @@
     <property name="FullScreen" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="Home&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/Controllers/HomeController.php&#10;Welcome&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/welcome.blade.php&#10;routes&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/routes.php&#10;.env&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/.env&#10;Mode&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;home&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/home.blade.php&#10;TicketC&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/Controllers/TicketController.php&#10;Tick&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Ticket.php&#10;image.php&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/image.php&#10;app.&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/app.php&#10;composer.js&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/composer.json&#10;ModelF&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;app.php&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/app.php&#10;composer.j&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/composer.json&#10;mas&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/layouts/master.blade.php&#10;User&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/User.php&#10;Ticket&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Ticket.php&#10;create.bla&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/modules/ticket/create.blade.php&#10;script&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/partials/scripts.blade.php&#10;sty&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/partials/styles.blade.php&#10;TicketCon&#9;null&#9;null&#10;modeF&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;AppService&#9;null&#9;null&#10;HomeC&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="_fo&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/modules/ticket/_create_edit_form.blade.php&#10;Tick&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/Controllers/TicketController.php&#10;Home&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/Controllers/HomeController.php&#10;Welcome&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/welcome.blade.php&#10;routes&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/routes.php&#10;.env&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/.env&#10;Mode&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;home&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/home.blade.php&#10;TicketC&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Http/Controllers/TicketController.php&#10;image.php&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/image.php&#10;app.&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/app.php&#10;composer.js&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/composer.json&#10;ModelF&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;app.php&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/config/app.php&#10;composer.j&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/composer.json&#10;mas&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/layouts/master.blade.php&#10;User&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/User.php&#10;Ticket&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/app/Ticket.php&#10;create.bla&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/modules/ticket/create.blade.php&#10;script&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/partials/scripts.blade.php&#10;sty&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/resources/views/partials/styles.blade.php&#10;TicketCon&#9;null&#9;null&#10;modeF&#9;FILE&#9;file:///Users/usamaahmed/home/Homestead/www/tickets/database/factories/ModelFactory.php&#10;AppService&#9;null&#9;null&#10;HomeC&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -563,9 +563,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding>
-            <marker date="1467282837000" expanded="true" signature="470:597" placeholder="..." />
-            <marker date="1467282837000" expanded="true" signature="482:595" placeholder="..." />
-            <marker date="1467282837000" expanded="true" signature="504:594" placeholder="..." />
+            <marker date="1467325512000" expanded="true" signature="470:597" placeholder="..." />
+            <marker date="1467325512000" expanded="true" signature="482:595" placeholder="..." />
+            <marker date="1467325512000" expanded="true" signature="504:594" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -595,6 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -810,6 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.0">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,31 +830,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateTicket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-          <folding>
-            <element signature="e#37#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/modules/ticket/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TicketController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding>
-            <element signature="e#40#55#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,18 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <marker date="1467282837000" expanded="true" signature="470:597" placeholder="..." />
-            <marker date="1467282837000" expanded="true" signature="482:595" placeholder="..." />
-            <marker date="1467282837000" expanded="true" signature="504:594" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -907,6 +877,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-20.444445">
@@ -915,11 +893,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TicketController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06792453">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-          <folding />
+        <state vertical-scroll-proportion="-10.444445">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="8.0">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <element signature="e#37#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/modules/ticket/_create_edit_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033962265">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+          <folding>
+            <marker date="1467325512000" expanded="true" signature="470:597" placeholder="..." />
+            <marker date="1467325512000" expanded="true" signature="482:595" placeholder="..." />
+            <marker date="1467325512000" expanded="true" signature="504:594" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

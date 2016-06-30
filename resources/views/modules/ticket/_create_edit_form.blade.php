@@ -32,7 +32,7 @@
         <label class="col-md-4 control-label" for="checkboxes">Reopen Ticket : </label>
         <div class="col-md-4">
             <div class="checkbox">
-                <label for="checkboxes-1">c
+                <label for="checkboxes-1">
                     {{ Form::radio('closed',0, ($ticket->closed) ? $ticket->closed : null) }}
                 </label>
             </div>
