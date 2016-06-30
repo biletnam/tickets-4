@@ -17,7 +17,7 @@
             <p>Enjoy :)</p>
         </div>
 
-        @if(!is_null($tickets))
+        @if(!is_null($tickets) && $tickets->count() >= 1)
                 <!-- Table -->
         <table id="tickets" class="table table-bordered table-responsive tab-content table-hover" cellspacing="0"
                width="100%">

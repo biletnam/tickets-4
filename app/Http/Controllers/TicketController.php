@@ -23,9 +23,7 @@ class TicketController extends Controller
 
         } else {
 
-            $tickets = Ticket::with(['user' => function ($q) {
-                $q->where('user_id', Auth::id());
-            }])->orderBy('created_at', 'asc')->get();
+            $tickets = Ticket::where('user_id', 11)->orderBy('created_at', 'asc')->get();
 
         }
 
