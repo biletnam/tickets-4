@@ -9,6 +9,8 @@
 
                 <div class="panel-body">
                     You are logged in!
+                    <br>
+                    <a href="{{ url('/ticket') }}">View Your Tickets</a>
                 </div>
             </div>
         </div>

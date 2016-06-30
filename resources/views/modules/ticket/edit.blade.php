@@ -2,6 +2,6 @@
 
 
 @section('content')
-    <h1>Create Ticket</h1>
+    <h1>Edit Ticket</h1>
     @include('modules.ticket._create_edit_form');
 @endsection

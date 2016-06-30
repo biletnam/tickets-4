@@ -27,6 +27,7 @@
                 <th>body</th>
                 <th>user</th>
                 <th>status</th>
+                <th>created_at</th>
             </tr>
             </thead>
             <tbody>
@@ -36,6 +37,7 @@
                     <td>{{ $ticket->body }}</td>
                     <td>{{ $ticket->user->name }}</td>
                     <td>{{ ($ticket->closed) ? 'closed' : 'pending' }}</td>
+                    <td>{{ ($ticket->created_at->diffForHumans()) }}</td>
                 </tr>
             @endforeach
             </tbody>

@@ -19,8 +19,9 @@ class CreateTicketsTable extends Migration
             $table->string('code');
             $table->integer('user_id')->unsigned()->index();
             $table->boolean('closed');
+            $table->string('img_url');
 
-            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

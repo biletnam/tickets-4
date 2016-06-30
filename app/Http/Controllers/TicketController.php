@@ -6,6 +6,7 @@ use App\Ticket;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Illuminate\Support\Facades\Auth;
 
 class TicketController extends Controller
 {
@@ -16,7 +17,17 @@ class TicketController extends Controller
      */
     public function index()
     {
-        $tickets = Ticket::with('user')->get();
+        if (Auth::id() === 1) {
+
+            $tickets = Ticket::with('user')->orderBy('created_at', 'asc')->get();
+
+        } else {
+
+            $tickets = Ticket::with(['user' => function ($q) {
+                $q->where('user_id', Auth::id());
+            }])->orderBy('created_at', 'asc')->get();
+
+        }
 
         return view('modules.ticket.index', compact('tickets'));
     }
@@ -39,11 +50,10 @@ class TicketController extends Controller
      */
     public function store(Requests\CreateTicket $request)
     {
-        $ticket = Ticket::create($request->all());
+        if ($ticket = $request->persist()) {
 
-        if ($ticket) {
+            return redirect()->to('/ticket')->with('success', 'Your Ticket Has been created successfully');
 
-            return view('modules.ticket.index')->with('success', 'Your Ticket Has been created successfully');
         }
         return redirect()->back()->with('error', 'your ticket is not created successfully');
     }
@@ -56,7 +66,9 @@ class TicketController extends Controller
      */
     public function show($id)
     {
-        //
+        $ticket = Ticket::whereId($id)->first();
+
+        return view('modules.ticket.show', compact('ticket'));
     }
 
     /**
@@ -67,7 +79,9 @@ class TicketController extends Controller
      */
     public function edit($id)
     {
-        //
+        $ticket = Ticket::whereId($id)->first();
+
+        return view('modules.ticket.edit', compact('ticket'));
     }
 
     /**
@@ -79,7 +93,11 @@ class TicketController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $ticket = Ticket::whereId($id)->first();
+
+        $updated = $ticket->update($request->except(['_method', '_token']));
+
+        return redirect()->route('ticket.show', $id)->with('success', 'you edited the ticket successfully');
     }
 
     /**
@@ -90,6 +108,33 @@ class TicketController extends Controller
      */
     public function destroy($id)
     {
-        //
+        if (Auth::id === 1) {
+
+            $ticket = Ticket::whereId($id)->first();
+
+        } else {
+
+            $ticket = Ticket::where(['id' => $id, 'user_id' => Auth::id()])->first();
+
+        }
+
+        if ($ticket) {
+
+            $ticket->delete();
+
+            return redirect()->to('/ticket')->with('success', 'Your Ticket Has been deleted');
+        }
+
+        return redirect()->to('/ticket')->with('error', 'you cant delete');
+
+    }
+
+    public function changeStatus($id, $status)
+    {
+        $ticket = Ticket::whereId($id)->first();
+
+        $updated = $ticket->update(['closed' => $status]);
+
+        return redirect()->back()->with('success', 'Your updated status');
     }
 }

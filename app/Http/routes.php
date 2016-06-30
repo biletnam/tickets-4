@@ -20,4 +20,5 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', 'HomeController@index');
-Route::resource('ticket', 'TicketController', ['only' => ['index','create','show']]);
+Route::resource('ticket', 'TicketController');
+Route::get('/ticket/change/{id}/{status}', ['as' => 'ticket.change', 'uses' => 'TicketController@changeStatus']);

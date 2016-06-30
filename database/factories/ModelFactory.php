@@ -28,5 +28,6 @@ $factory->define('App\Ticket', function (Faker\Generator $faker) {
         'body' => $faker->paragraph(3),
         'user_id' => User::all()->random()->id,
         'closed' => $faker->numberBetween(0,1),
+        'img_url' => $faker->imageUrl('300','300')
     ];
 });
