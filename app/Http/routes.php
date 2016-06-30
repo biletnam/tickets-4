@@ -12,7 +12,7 @@
 */
 use Illuminate\Support\Facades\Auth;
 
-Auth::LoginUsingId(1);
+//Auth::LoginUsingId(1);
 Route::get('/', function () {
     return view('welcome');
 });
