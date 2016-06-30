@@ -43,7 +43,7 @@
             </tbody>
         </table>
         @else
-            <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i>"> there are no tickets to show ..
+            <div class="alert alert-warning"><i class="fa fa-exclamation-circle fa-lg"></i> there are no tickets to show ..
                 please <a href="{{ route('ticket.create') }}">create a ticket</a></div>
         @endif
     </div>
